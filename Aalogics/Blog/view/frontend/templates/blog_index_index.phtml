@@ -1,0 +1,9 @@
+<?php
+
+$mediaUrl = $this ->_storeManager-> getStore()->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_MEDIA );
+foreach($block->getBlogData() as $item){
+	echo "<h2>{$item->getData('blog_title')}</h2>";
+	echo "<p>{$item->getData('blog_content')}</p>";
+	echo "<img width='100' height='100' src='{$mediaUrl}{$item->getData('blog_image')}'/>";
+		}
+?>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Aalogics_Blog::parent" title="Blog" module="Aalogics_Blog" sortOrder="100" resource="Aalogics_Blog::parent"/>
+		<add id="Aalogics_Blog::aalogicsmanageblog" title="Blog Aalogicsmanageblog" module="Aalogics_Blog" sortOrder="20" parent="Aalogics_Blog::parent" action="blog/aalogicsmanageblog" resource="Aalogics_Blog::aalogicsmanageblog"/>
+
+    </menu>
+</config>
